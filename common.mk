@@ -194,8 +194,8 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.samsung-recovery
 
 # Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.samsung
+#PRODUCT_PACKAGES += \
+#    vendor.lineage.health-service.samsung
 
 # Keymaster
 PRODUCT_PACKAGES += \
