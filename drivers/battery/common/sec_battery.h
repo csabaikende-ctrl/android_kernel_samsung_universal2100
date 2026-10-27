@@ -911,7 +911,7 @@ struct sec_battery_info {
 #endif
 
 	unsigned int capacity;			/* SOC (%) */
-	unsigned int input_voltage;		/* CHGIN/WCIN input voltage (V) */
+	unsigned int input_voltage;		/* CHGIN/WCIN input voltage (mV) */
 	unsigned int charge_power;		/* charge power (mW) */
 	unsigned int max_charge_power;		/* max charge power (mW) */
 	unsigned int pd_max_charge_power;		/* max charge power for pd (mW) */
