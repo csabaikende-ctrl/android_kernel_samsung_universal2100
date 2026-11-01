@@ -1,0 +1,7 @@
+// The kernel's UAPI headers, under the name Paranoid Android's CLO projects
+// (e.g. external/tinycompress) use next to device_kernel_headers.
+kernel_headers {
+    name: "qti_kernel_headers",
+    vendor: true,
+    recovery_available: true,
+}
